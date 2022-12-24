@@ -1,0 +1,9 @@
+#Nav {
+  background-color: #666;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  max-height: 64px;
+  justify-content: space-between;
+}
