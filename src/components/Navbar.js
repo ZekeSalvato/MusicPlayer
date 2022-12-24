@@ -14,9 +14,9 @@ function CollapsibleExample() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                    <Nav.Link eventKey={2} href="#memes">
-              Tuner
-            </Nav.Link>
+                        <Nav.Link eventKey={2} href="#memes">
+                            Tuner
+                        </Nav.Link>
                     </Nav>
                     <Nav>
                         <Form className="d-flex">
