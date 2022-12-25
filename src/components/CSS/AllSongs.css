@@ -1,5 +1,27 @@
 .card-img-top {
-width: 100%;
-aspect-ratio: 3/2;
-object-fit: contain;
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+#containerOne {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
 }
