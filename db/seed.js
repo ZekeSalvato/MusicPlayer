@@ -1,5 +1,7 @@
 const client = require('./client');
 
+const { createSong, fetchAllSongs } = require('./songs')
+
 async function dropTables() {
     try {
         console.log("dropping tables..");
