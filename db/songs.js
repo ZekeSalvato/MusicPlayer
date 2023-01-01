@@ -1,12 +1,12 @@
 const { client } = require('./client');
 
-async function createSong({title, description, price, image}) {
+async function createSong({title, artist, image}) {
   try {
     const { rows: [song]} = await client.query(`
-      INSERT INTO songs (title, description, price, image)
-      VALUES ($1, $2, $3, $4)
+      INSERT INTO songs (title, artist, image)
+      VALUES ($1, $2, $3)
       RETURNING *;
-    `, [title, description, price, image])
+    `, [title, artist, image])
     
     return song;
   }
